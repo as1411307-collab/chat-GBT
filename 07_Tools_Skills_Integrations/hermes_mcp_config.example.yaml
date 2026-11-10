@@ -1,0 +1,23 @@
+# Example only. No Hermes instance was changed or connected by this experiment.
+# Replace path with the absolute location of this extracted folder on your server.
+mcp_servers:
+  stage1_capability_bridge:
+    command: python3
+    args:
+      - /ABSOLUTE/PATH/capability_bridge_stage2_20261025/mcp_stdio.py
+    enabled: true
+    timeout: 45
+    connect_timeout: 30
+    tools:
+      include:
+        - capability_search
+        - capability_details
+        - skill_list
+        - skill_load
+        - report_pdf_search
+        - duplicate_review
+        - bridge_status
+  # External source-backed research; not activated because your OAuth is not in this package.
+  liner:
+    url: https://platform.liner.com/api/v1/mcp
+    enabled: false
