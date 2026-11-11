@@ -1,39 +1,52 @@
-# Archive — ChatGPT research, app and agent system (Sep–Nov 2026)
+# فهرس ChatGPT المنقح — تطبيق iPhone والنواة والأبحاث
+آخر تنظيم: 11 نوفمبر 2026
 
-This branch is **separate from** `main` and separate from the `kimi` repository. It stores accessible ChatGPT-side research, technical analyses, requirements and files for native iPhone assistant app and private agent system.
+## حدود العمل
+هذا الفهرس يخص فقط الملفات والمخرجات التي جُمعت أو كُتبت في مسار **ChatGPT** داخل الفرع `chatgpt/two-months-complete`.
+ملفات ونواتج أي نموذج آخر **خارج نطاق الفهرسة والتنظيف**؛ لا تُقرأ ولا تُنقل ولا تُعدّل ولا تُحذف دون توجيه صريح.
+فرع `main` لا يتغير.
 
-## Time window
-2026-09-10 — 2026-11-10. Older references may be preserved when later conversations incorporated them.
+**تنبيه:** هذه مكتبة أبحاث ومتطلبات ومقتطفات تاريخية، وليست شهادة بأن التطبيق موجود أو يعمل. ملفات الحزم البرمجية الأصلية التي لم تُنقل بعد ليست ضمن الشيفرة القابلة للبناء في هذا الفرع.
 
-## Categories
+## 1) الملفّات الأساسية — اقرأها أولًا
+ترتيب قراءة مقترح للعثور على المعلومة دون الغرق في الملفات الطويلة:
 
-- `01_Requirements_History/`: historical instructions, decisions and contradictory alternatives **without silent deletion**.
-- `02_iOS_App_Xcode/`: SwiftUI / iOS, UI, security, TestFlight and development.
-- `03_Architecture_Core/`: client–core boundaries, server, approvals, execution.
-- `04_Memory_Learning/`: append-only recorder, knowledge, local memory and learning.
-- `05_Repository_Research/`: GitHub studies and catalogs.
-- `06_Verification_Security/`: real-code audits, threat reviews, test evidence.
-- `07_Tools_Skills_Integrations/`: agents, skills, MCP, n8n and external systems.
-- `08_Implementation_Artifacts/`: code and technical deliverables.
-- `09_Incoming_Source_Reports/`: submitted reports and original source material, including other models' work, **clearly labeled as incoming**.
-- `10_Raw_Indexes/`: Git inventories, trees, branches, raw lists.
-- `11_Asset_Register/`: binary files and archives that may require another upload route.
-- `12_Claims_Status/`: verified vs source-claimed vs unresolved evidence.
+| الغرض | الملف المرجعي | المعنى |
+|---|---|---|
+| المتطلبات الأصلية | [Original_168_User_96_Assistant_Requirements](01_Requirements_History/Original_168_User_96_Assistant_Requirements.md) | تجميع تاريخي للطلبات والتعليمات وليس قائمة قرارات نهائية |
+| التسلسل والقرارات | [CHRONOLOGY](01_Requirements_History/CHRONOLOGY.md) | متى تغيّرت الاختيارات وما هو تاريخها |
+| أحدث مراجعة للمعماريات | [Last_Architectures_Review](03_Architecture_Core/2026-11-06-Last_Architectures_Review.md) | مرجع للمقارنة والقرار الهندسي |
+| تفاصيل واجهة iPhone | [iOS_Sovereign_Master_Blueprint](02_iOS_App_Xcode/2026-11-08-iOS_Sovereign_Master_Blueprint.md) | مواصفات بحثية لـ SwiftUI وXcode والواجهة |
+| التعلم والتسجيل | [DESIGN_REQUIREMENTS_AND_EVIDENCE](04_Memory_Learning/DESIGN_REQUIREMENTS_AND_EVIDENCE.md) | متطلبات التسجيل السلبي والذاكرة |
+| مراجعة الأمان | [NEXUS_Reference_Audit](06_Verification_Security/2026-11-01-NEXUS_Reference_Audit.md) | ملاحظات المراجعة، لا تعني تنفيذ الإصلاحات |
+| حقيقة الاختبارات | [VERIFICATION_REPORT](06_Verification_Security/2026-11-09-VERIFICATION_REPORT.md) | الاختبارات المبلّغ عنها وحدودها |
+| حالـة الادعاءات | [VERIFICATION_POLICY](12_Claims_Status/VERIFICATION_POLICY.md) | تمييز المدّعى والمُراجع والمُختبر |
 
-## Provenance rules
-1. Preserve originals and historical alternatives; **classification is not endorsement**.
-2. Distinguish user requirements, ChatGPT-origin outputs, uploaded outside-model reports, external repository facts and inferences.
-3. Never label an item tested because an identical count or a test file exists.
-4. Do not post personal unrelated files or credentials; source files blocked for secrets will be identified in the manifest.
-5. This archive is **incremental**. The manifest lists what was actually imported and what remains accessible only via ChatGPT Library. Do not claim complete prior-conversation coverage unless all underlying source records have been verified.
-6. Namespaces remain separate: `as1411307-collab/kimi` is never modified by this branch's updates.
+## 2) مراجع متخصصة — افتحها عند الحاجة فقط
+- **أبحاث iPhone:** [iPhone_Unique_Findings](02_iOS_App_Xcode/iPhone_Unique_Findings_2026-11-09.md) ثم [iPhone_753_Research_One_File_FULL](02_iOS_App_Xcode/iPhone_753_Research_One_File_FULL.md).
+- **تصحيحات بناء iOS والأدلة:** [practical-corrections-and-sources](02_iOS_App_Xcode/2026-11-09-practical-corrections-and-sources.md) و[753_URLS_CORRECTED_EVIDENCE_LEDGER](06_Verification_Security/753_URLS_CORRECTED_EVIDENCE_LEDGER.csv).
+- **الأدوات والتكاملات:** [iOS_Tools_Skills_Expanded_Master](07_Tools_Skills_Integrations/iOS_Tools_Skills_Expanded_Master_2026.md) و[agents-all-in-one](07_Tools_Skills_Integrations/2026-11-09-agents-all-in-one.md).
+- **الأكواد التاريخية والمقتطفات:** [Extracted_Code_From_Files](08_Implementation_Artifacts/Extracted_Code_From_Files_2026-11-08.md) و[Historical_Agent_Core.py](08_Implementation_Artifacts/Historical_Agent_Core.py). لا تُعامل على أنها منتج جاهز.
+- **أبحاث المستودعات العامة:** [Report_05_Cross_Comparison](05_Repository_Research/Report_05_Cross_Comparison.md) ثم التقارير التفصيلية عند الحاجة.
 
-## Historical decisions (see details)
-- Native iPhone app (SwiftUI/Xcode, Arabic RTL) with control/review UI.
-- Private server-side core owns task execution and memory; no provider keys or agent execution in iOS client.
-- Sensitive external actions need explicit owner approval and verifiable receipts.
-- Append-only learning recorder captures evidence, sources, tool use, evaluations (not inaccessible private model chain-of-thought), periodic export to Mac.
-- Multiple architectures and abandoned prototypes remain part of the historical record, not endorsed implementations.
-- Verify real execution end to end; remove needless complexity before expanding scope.
+## 3) أرشيف مرجعي — ليس مسار التنفيذ اليومي
+- `01_Requirements_History/`: الوثائق التاريخية القديمة والموسوعات الطويلة، منها `Unified_Encyclopedia_FULL.md`.
+- `02_iOS_App_Xcode/`: نسخ متعدّدة من التفريغ البحثي الكبير. التشابه في الفصول لا يعني تطابقًا تامًا.
+- `03_Architecture_Core/`: تصورات قديمة وبدائل تصميم سابقة؛ لا تعتبر تعليمات للتنفيذ تلقائيًا.
+- `05_Repository_Research/`: كتالوجات مطولة HTML وMarkdown للبحث المرجعي.
+- `08_Implementation_Artifacts/`: حزم وأكواد ومحاولات سابقة تحتاج مراجعة وتشغيل فعلي قبل الاعتماد.
+- `10_Raw_Indexes/`: فهارس ضخمة للملفات والفروع، وهي أدلة مصدر وليست ملفات بناء للتطبيق.
+- `11_Asset_Register/`: سجل ما وصل وما لم يصل من المواد الأصلية.
 
-See `01_Requirements_History/CHRONOLOGY.md` and `12_Claims_Status/VERIFICATION_POLICY.md`.
+## 4) نتيجة التدقيق على ملفات هذا الفرع
+- **68 ملفًا** عند فحص Git tree السابق، ببيانات إجمالية قدرها **15,103,201 بايت**.
+- **صفر أزواج متطابقة في Git blob SHA**: لا توجد نسخة مطابقة بالكامل يمكن حذفها بثقة اعتمادًا على البصمة وحدها.
+- فحص تشابه لأربعة أزواج من وثائق ChatGPT الصغيرة والمتوسطة لم يُظهر احتواءً نصيًا كاملًا يبرر حذف إحداها.
+- كُتِب هذا الفهرس لتقليل التصفح والتشتت؛ **لم تُحذف ملفات مستقلة لمجرد تشابهها في الموضوع، ولم تُنقل مصادر أخرى**.
+- **لا تثق بعناوين مثل «working source» و«verification» وحدها**؛ راجع ملف إثبات الاختبارات وما لم يُنفّذ بالفعل.
+- المواد الأصلية الكبيرة/الثنائية وبعض مستندات Library لم تُنقل بعد بالكامل، لذا ليست هذه المكتبة إحصاءً نهائيًا لكل المصادر.
+
+## 5) حدود السلامة
+- لا تعديل لأي ملفات من خارج عمل ChatGPT، حتى لو ظهرت ضمن شجرة المستودع نفسها.
+- لا تغيير لفرع `main` أو أي مستودع آخر.
+- لا حذف للأصول غير المكررة دون دليل قابل للتحقق على أنها غير مفيدة إطلاقًا.
