@@ -1,0 +1,486 @@
+{
+  "files": {
+    "‎⁨تقرير_جرد_المستودعات_الأربعة⁩.md": {
+      "size_bytes": 139101,
+      "sha256": "9aaf51e4b348c156f2ed64d2c9af7038fade58065b7e7067d506097f1217cc7f",
+      "lines": 947,
+      "utf8_ok": true
+    },
+    "‎⁨السجل_الكامل_للفروع⁩ 2.txt": {
+      "size_bytes": 518082,
+      "sha256": "8fd7aa85bc3f13d674d8b8fba4bf3a60b20a9813f0d35bfd4d1824c4d3a136cc",
+      "lines": 6038,
+      "utf8_ok": true
+    },
+    "‎⁨الفهرس_الكامل_لمسارات_المستودعات⁩ 2.txt": {
+      "size_bytes": 2312382,
+      "sha256": "1f0944382afc06cba5fcab9a955e9ecd4a748dd9f8ffdae4511c9f86e4742171",
+      "lines": 35409,
+      "utf8_ok": true
+    },
+    "‎⁨الفهرس_الكامل_لمسارات_المستودعات⁩.txt": {
+      "size_bytes": 2312382,
+      "sha256": "1f0944382afc06cba5fcab9a955e9ecd4a748dd9f8ffdae4511c9f86e4742171",
+      "lines": 35409,
+      "utf8_ok": true
+    },
+    "open-design.branches.json": {
+      "size_bytes": 776392,
+      "sha256": "536a99b4f16a215b708f95ca5aa43b44ef267a5aa9de2b3295258235caa2f40c",
+      "lines": 22818,
+      "utf8_ok": true
+    },
+    "langflow.branches.json": {
+      "size_bytes": 710715,
+      "sha256": "19d4072352c3171bc228550b9042121598cf8745a4c3068d8e71df3e39af7000",
+      "lines": 21282,
+      "utf8_ok": true
+    },
+    "ollama.branches(1).json": {
+      "size_bytes": 116765,
+      "sha256": "37b10b5a3fb218515597c8969391136e4afae1e0adac3e8f06dd1fb5248fcfdc",
+      "lines": 3853,
+      "utf8_ok": true
+    },
+    "ollama.branches.json": {
+      "size_bytes": 116765,
+      "sha256": "37b10b5a3fb218515597c8969391136e4afae1e0adac3e8f06dd1fb5248fcfdc",
+      "lines": 3853,
+      "utf8_ok": true
+    },
+    "awesome-llm-apps.tree.json": {
+      "size_bytes": 889962,
+      "sha256": "a2ed369bdabb0e56ee2bed897ee61d26ad8575b8f521f08ae3617532bddc8f61",
+      "lines": 19825,
+      "utf8_ok": true
+    },
+    "ollama.tree.json": {
+      "size_bytes": 530589,
+      "sha256": "c36cab6810a66eaa5c648023b4c387000c84858a7456c68bb49021ea458325be",
+      "lines": 14477,
+      "utf8_ok": true
+    },
+    "awesome-llm-apps.paths.txt": {
+      "size_bytes": 216209,
+      "sha256": "b158a058a720fbae346e477ee0e57673ce2764a6832b67930cecaf74b7514d49",
+      "lines": 2549,
+      "utf8_ok": true
+    },
+    "open-design.branches.txt": {
+      "size_bytes": 208892,
+      "sha256": "3e62345ee2969b4e3bf601e1fee044e9abd5bc6c89b0a19f98a52f812b91f108",
+      "lines": 2852,
+      "utf8_ok": true
+    },
+    "‎⁨جرد_المستودعات.kanva⁩.pptd": {
+      "size_bytes": 1180,
+      "sha256": "84fd0ea72972d8cffa461892a4ed10cccd7f10210c245fa74c0e1f739a9b3faa",
+      "lines": 51,
+      "utf8_ok": true
+    }
+  },
+  "index": {
+    "‎⁨الفهرس_الكامل_لمسارات_المستودعات⁩ 2.txt": {
+      "sha256": "1f0944382afc06cba5fcab9a955e9ecd4a748dd9f8ffdae4511c9f86e4742171",
+      "counts": {
+        "nexu-io/open-design": {
+          "tree": 2500,
+          "blob": 14266
+        },
+        "Shubhamsaboo/awesome-llm-apps": {
+          "blob": 1989,
+          "tree": 558
+        },
+        "langflow-ai/langflow": {
+          "tree": 2356,
+          "blob": 11878
+        },
+        "ollama/ollama": {
+          "blob": 1632,
+          "tree": 202
+        }
+      },
+      "snapshots": {
+        "nexu-io/open-design": "07a86b1041531bfa0bec1006d9c0993985fee560",
+        "Shubhamsaboo/awesome-llm-apps": "c46144eb61c18cd1a495445c79ec47145722053e",
+        "langflow-ai/langflow": "60999cc9a7350e44dde3ef641baae864e10861f0",
+        "ollama/ollama": "1f23c7232e8e35b21d81bb03569a8afde2a6b0f9"
+      },
+      "total_entries": 35381
+    },
+    "‎⁨الفهرس_الكامل_لمسارات_المستودعات⁩.txt": {
+      "sha256": "1f0944382afc06cba5fcab9a955e9ecd4a748dd9f8ffdae4511c9f86e4742171",
+      "counts": {
+        "nexu-io/open-design": {
+          "tree": 2500,
+          "blob": 14266
+        },
+        "Shubhamsaboo/awesome-llm-apps": {
+          "blob": 1989,
+          "tree": 558
+        },
+        "langflow-ai/langflow": {
+          "tree": 2356,
+          "blob": 11878
+        },
+        "ollama/ollama": {
+          "blob": 1632,
+          "tree": 202
+        }
+      },
+      "snapshots": {
+        "nexu-io/open-design": "07a86b1041531bfa0bec1006d9c0993985fee560",
+        "Shubhamsaboo/awesome-llm-apps": "c46144eb61c18cd1a495445c79ec47145722053e",
+        "langflow-ai/langflow": "60999cc9a7350e44dde3ef641baae864e10861f0",
+        "ollama/ollama": "1f23c7232e8e35b21d81bb03569a8afde2a6b0f9"
+      },
+      "total_entries": 35381
+    }
+  },
+  "repo_checks": {
+    "Shubhamsaboo/awesome-llm-apps": {
+      "json_sha": "c46144eb61c18cd1a495445c79ec47145722053e",
+      "truncated": false,
+      "json_count": 2547,
+      "indexed_count": 2547,
+      "index_missing_from_json_count": 0,
+      "json_missing_from_index_count": 0,
+      "metadata_mismatch_count": 0,
+      "index_only_samples": [],
+      "json_only_samples": [],
+      "metadata_mismatch_samples": [],
+      "zero_byte_blobs": [
+        "advanced_ai_agents/multi_agent_apps/agent_teams/ai_legal_agent_team/local_ai_legal_agent_team/README.md",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/db/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/models/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/models/schemas.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/processors/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/routers/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/services/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tests/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tools/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tools/social/__init__.py",
+        "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/utils/__init__.py",
+        "advanced_ai_agents/single_agent_apps/windows_use_autonomous_agent/windows_use/__init__.py",
+        "advanced_ai_agents/single_agent_apps/windows_use_autonomous_agent/windows_use/agent/tools/__init__.py",
+        "ai_agent_framework_crash_course/openai_sdk_crash_course/1_starter_agent/1_personal_assistant_agent/__init__.py",
+        "generative_ui_agents/ai-knowledge-explorer/agent/src/__init__.py",
+        "generative_ui_agents/ai-shadcn-component-generator/apps/agent/src/__init__.py",
+        "generative_ui_agents/generative-ui-starter-project/agent/src/a2ui/__init__.py",
+        "generative_ui_agents/generative-ui-starter-project/agent/src/a2ui/schemas/__init__.py"
+      ],
+      "zero_byte_blobs_count": 19,
+      "duplicate_json_paths_count": 0,
+      "tree_sha_in_metadata": "c46144eb61c18cd1a495445c79ec47145722053e",
+      "recomputed_root_tree_sha": "22fbbca3f453d867b09c7966da5f01ac204b5554",
+      "subtree_hashes_validated_count": 558,
+      "subtree_hash_mismatch_count": 0,
+      "subtree_hash_mismatch_samples": []
+    },
+    "ollama/ollama": {
+      "json_sha": "1f23c7232e8e35b21d81bb03569a8afde2a6b0f9",
+      "truncated": false,
+      "json_count": 1834,
+      "indexed_count": 1834,
+      "index_missing_from_json_count": 0,
+      "json_missing_from_index_count": 0,
+      "metadata_mismatch_count": 0,
+      "index_only_samples": [],
+      "json_only_samples": [],
+      "metadata_mismatch_samples": [],
+      "zero_byte_blobs": [],
+      "zero_byte_blobs_count": 0,
+      "duplicate_json_paths_count": 0,
+      "tree_sha_in_metadata": "1f23c7232e8e35b21d81bb03569a8afde2a6b0f9",
+      "recomputed_root_tree_sha": "8351ff4b5d50140dcd00e219e674609d46af8deb",
+      "subtree_hashes_validated_count": 202,
+      "subtree_hash_mismatch_count": 0,
+      "subtree_hash_mismatch_samples": []
+    }
+  },
+  "branch_checks": {
+    "nexu-io/open-design": {
+      "expected_from_txt_header": 2852,
+      "count_in_global_file": 2852,
+      "protected_in_global_file": 50,
+      "main_sha_from_global": "07a86b1041531bfa0bec1006d9c0993985fee560",
+      "snapshot_sha": "07a86b1041531bfa0bec1006d9c0993985fee560",
+      "main_sha_matches_index": true,
+      "json_entries": 2852,
+      "json_unique_names": 2852,
+      "json_matches_global": true,
+      "json_diff_only_count": 0,
+      "global_diff_only_count": 0,
+      "sha_or_protection_mismatches_count": 0
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "expected_from_txt_header": 15,
+      "count_in_global_file": 15,
+      "protected_in_global_file": 0,
+      "main_sha_from_global": "c46144eb61c18cd1a495445c79ec47145722053e",
+      "snapshot_sha": "c46144eb61c18cd1a495445c79ec47145722053e",
+      "main_sha_matches_index": true
+    },
+    "langflow-ai/langflow": {
+      "expected_from_txt_header": 2660,
+      "count_in_global_file": 2660,
+      "protected_in_global_file": 19,
+      "main_sha_from_global": "60999cc9a7350e44dde3ef641baae864e10861f0",
+      "snapshot_sha": "60999cc9a7350e44dde3ef641baae864e10861f0",
+      "main_sha_matches_index": true,
+      "json_entries": 2660,
+      "json_unique_names": 2660,
+      "json_matches_global": true,
+      "json_diff_only_count": 0,
+      "global_diff_only_count": 0,
+      "sha_or_protection_mismatches_count": 0
+    },
+    "ollama/ollama": {
+      "expected_from_txt_header": 493,
+      "count_in_global_file": 493,
+      "protected_in_global_file": 1,
+      "main_sha_from_global": "1f23c7232e8e35b21d81bb03569a8afde2a6b0f9",
+      "snapshot_sha": "1f23c7232e8e35b21d81bb03569a8afde2a6b0f9",
+      "main_sha_matches_index": true,
+      "json_entries": 493,
+      "json_unique_names": 493,
+      "json_matches_global": false,
+      "json_diff_only_count": 0,
+      "global_diff_only_count": 0,
+      "sha_or_protection_mismatches_count": 2
+    }
+  },
+  "main_snapshots": {},
+  "checks": {
+    "duplicate_index_identical": true,
+    "awesome_flat_path_count": 2547,
+    "awesome_flat_matches_global_index": true,
+    "open_design_branch_txt_count": 2852,
+    "open_design_branch_txt_matches_global": true,
+    "duplicate_ollama_branches_json_identical": true,
+    "pptd": {
+      "size": 1180,
+      "is_pptx": false,
+      "page_references": [
+        "pages/1_خريطة_الجرد.page"
+      ],
+      "referenced_pages_present": {
+        "pages/1_خريطة_الجرد.page": false
+      },
+      "contains_embedded_pages": false,
+      "contents": "version: v2\ntitle: خريطة جرد المستودعات الأربعة\nsize: [1080, 1720]\ncustomFonts:\n  - family: Noto Kufi Arabic\n    src: \"https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic\"\n  - family: Noto Sans Arabic\n    src: \"https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic\"\ntheme:\n  colors:\n    ink: \"#0B1220\"\n    panel: \"#121D2E\"\n    panel2: \"#17263A\"\n    sand: \"#F4EBDD\"\n    muted: \"#9DB0C7\"\n    cyan: \"#51D6C7\"\n    amber: \"#F0B45B\"\n    blue: \"#78A9FF\"\n    coral: \"#F27D72\"\n  textStyles:\n    title:\n      fontFamily: Noto Kufi Arabic\n      fontSize: 39\n      color: \"$sand\"\n      bold: true\n    subtitle:\n      fontFamily: Noto Sans Arabic\n      fontSize: 18\n      color: \"$muted\"\n    repo:\n      fontFamily: Noto Kufi Arabic\n      fontSize: 24\n      color: \"$sand\"\n      bold: true\n    body:\n      fontFamily: Noto Sans Arabic\n      fontSize: 18\n      color: \"$sand\"\n      lineHeight: 1.45\n    small:\n      fontFamily: Noto Sans Arabic\n      fontSize: 15\n      color: \"$muted\"\n      lineHeight: 1.35\n    number:\n      fontFamily: Noto Kufi Arabic\n      fontSize: 29\n      color: \"$sand\"\n      bold: true\npages:\n  - pages/1_خريطة_الجرد.page\n"
+    },
+    "OD skills folders": {
+      "count": 169,
+      "samples": [
+        "skills/8-bit-orbit-video-template",
+        "skills/ad-creative",
+        "skills/after-hours-editorial-template",
+        "skills/agent-browser",
+        "skills/ai-music-album"
+      ]
+    },
+    "OD design templates folders": {
+      "count": 115,
+      "samples": [
+        "design-templates/aster-atelier",
+        "design-templates/audio-jingle",
+        "design-templates/blog-post",
+        "design-templates/clinical-case-report",
+        "design-templates/contact-widget"
+      ]
+    },
+    "OD design systems folders": {
+      "count": 153,
+      "samples": [
+        "design-systems/_schema",
+        "design-systems/agentic",
+        "design-systems/airbnb",
+        "design-systems/airtable",
+        "design-systems/ant"
+      ]
+    },
+    "OD packages folders": {
+      "count": 17,
+      "samples": [
+        "packages/agui-adapter",
+        "packages/components",
+        "packages/contracts",
+        "packages/diagnostics",
+        "packages/download"
+      ]
+    },
+    "OD apps folders": {
+      "count": 5,
+      "samples": [
+        "apps/closure",
+        "apps/daemon",
+        "apps/desktop",
+        "apps/packaged",
+        "apps/web"
+      ]
+    },
+    "OD plugin atoms": {
+      "count": 13,
+      "samples": [
+        "plugins/_official/atoms/build-test",
+        "plugins/_official/atoms/code-import",
+        "plugins/_official/atoms/critique-theater",
+        "plugins/_official/atoms/design-extract",
+        "plugins/_official/atoms/diff-review"
+      ]
+    },
+    "OD plugin scenarios": {
+      "count": 14,
+      "samples": [
+        "plugins/_official/scenarios/od-code-migration",
+        "plugins/_official/scenarios/od-default",
+        "plugins/_official/scenarios/od-design-refine",
+        "plugins/_official/scenarios/od-figma-migration",
+        "plugins/_official/scenarios/od-media-generation"
+      ]
+    },
+    "OD plugin image templates": {
+      "count": 45,
+      "samples": [
+        "plugins/_official/image-templates/3d-stone-staircase-evolution-infographic",
+        "plugins/_official/image-templates/anime-martial-arts-battle-illustration",
+        "plugins/_official/image-templates/e-commerce-live-stream-ui-mockup",
+        "plugins/_official/image-templates/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin",
+        "plugins/_official/image-templates/game-screenshot-three-kingdoms-guanyu-slaying-yanliang"
+      ]
+    },
+    "OD plugin video templates": {
+      "count": 63,
+      "samples": [
+        "plugins/_official/video-templates/3d-animated-boy-building-lego",
+        "plugins/_official/video-templates/a-decade-of-refinement-glow-up",
+        "plugins/_official/video-templates/ancient-guardian-dragon-rescue",
+        "plugins/_official/video-templates/ancient-indian-kingdom-fpv-video",
+        "plugins/_official/video-templates/animation-transfer-and-camera-tracking-prompt"
+      ]
+    },
+    "OD plugin design systems": {
+      "count": 143,
+      "samples": [
+        "plugins/_official/design-systems/agentic",
+        "plugins/_official/design-systems/airbnb",
+        "plugins/_official/design-systems/airtable",
+        "plugins/_official/design-systems/ant",
+        "plugins/_official/design-systems/apple"
+      ]
+    },
+    "OD plugin examples": {
+      "count": 201,
+      "samples": [
+        "plugins/_official/examples/article-magazine",
+        "plugins/_official/examples/audio-jingle",
+        "plugins/_official/examples/blog-post",
+        "plugins/_official/examples/card-twitter",
+        "plugins/_official/examples/card-xiaohongshu"
+      ]
+    },
+    "LF provider bundles": {
+      "count": 28,
+      "samples": [
+        "src/bundles/amazon",
+        "src/bundles/anthropic",
+        "src/bundles/arxiv",
+        "src/bundles/azure",
+        "src/bundles/cohere"
+      ]
+    },
+    "LF LFX components top-level": {
+      "count": 108,
+      "samples": [
+        "src/lfx/src/lfx/components/FAISS",
+        "src/lfx/src/lfx/components/Notion",
+        "src/lfx/src/lfx/components/agentics",
+        "src/lfx/src/lfx/components/agentql",
+        "src/lfx/src/lfx/components/aiml"
+      ]
+    },
+    "files_with_test_patterns": {
+      "OD_e2e_ui": 126,
+      "LF_backend_unit_py": 1162,
+      "LF_backend_integration_py": 52,
+      "LF_lfx_tests_py": 593,
+      "LF_frontend_tests_files": 340,
+      "OL_go_test_files": 489,
+      "OL_go_files": 1077
+    },
+    "OD_report_candidate_paths": {
+      "apps/daemon/src/runtimes/defs": true,
+      "docs/agent-adapters.md": true,
+      "docs/skills-protocol.md": true,
+      "plugins/spec/SPEC.md": true,
+      "plugins/spec/AGENT-DEVELOPMENT.md": true,
+      "packages/plugin-runtime": true,
+      "apps/daemon/src/media/": true,
+      "apps/daemon/src/api-token-auth.ts": true,
+      "packages/contracts/src/api/artifact-lint.ts": true,
+      "design-templates/hyperframes/": true
+    },
+    "LF_report_candidate_paths": {
+      "src/backend/base/langflow/base/memory/": true,
+      "src/backend/base/langflow/memory.py": true,
+      "src/backend/base/langflow/services/memory_base": true,
+      "docs/docs/Develop/memory.mdx": true,
+      "docs/docs/Develop/memory-bases.mdx": true,
+      "src/backend/base/langflow/api/v1/voice_mode.py": true,
+      "src/backend/base/langflow/utils/voice_utils.py": true,
+      "docs/docs/Develop/concepts-voice-mode.mdx": true,
+      "src/lfx/src/lfx/components/tools/yahoo_finance.py": true,
+      "src/bundles/lfx-bundles/src/lfx_bundles/twelvelabs/": true
+    },
+    "OL_report_candidate_paths": {
+      "docs/openapi.yaml": true,
+      "api/": true,
+      "server/": true,
+      "openai/": true,
+      "anthropic/": true,
+      "openai/responses_compact.go": true,
+      "server/responses_compact.go": true,
+      "app/store/": true,
+      "cmd/speech.go": true,
+      "server/transcription.go": true,
+      "integration/audio_test.go": true,
+      "thinking/": true,
+      "harmony/": true
+    },
+    "total_branch_count": 6020,
+    "total_index_count": 35381,
+    "invalid_branch_shas_open-design.branches.json": [],
+    "invalid_branch_shas_langflow.branches.json": [],
+    "invalid_branch_shas_ollama.branches.json": [
+      {
+        "name": "release_v0.32.9",
+        "sha": "1d5febee105f00c430e19214b7b620cf186f98",
+        "length": 38
+      }
+    ],
+    "invalid_branch_shas_ollama.branches(1).json": [
+      {
+        "name": "release_v0.32.9",
+        "sha": "1d5febee105f00c430e19214b7b620cf186f98",
+        "length": 38
+      }
+    ],
+    "ollama_branch_differences": [
+      {
+        "branch": "hoyyeva/goose-docs",
+        "json_sha": "05cb961273267d661f53602b905c164788c0c485",
+        "global_txt_sha": "05cb961273267d661d53602b905c164788c0c485",
+        "json_sha_length": 40
+      },
+      {
+        "branch": "release_v0.32.9",
+        "json_sha": "1d5febee105f00c430e19214b7b620cf186f98",
+        "global_txt_sha": "1d5febee105f00c430e19214b7b7b620cf186f98",
+        "json_sha_length": 38
+      }
+    ]
+  },
+  "warnings": []
+}
